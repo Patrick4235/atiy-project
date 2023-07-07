@@ -61,18 +61,14 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="index.html">Principal</a></li>
-          <li><a href="index.html #about">Sobre Nosotros</a></li>
-          <li class="menu-has-children"><a href="index.html #services">Nuestros Servicios</a>
+          <li class="menu-active"><a href="index.html">Inicio</a></li>
+          <li class="menu-has-children"><a href="index.html">Nuestros Servicios</a>
             <ul>
               <li><a href="http://thegatetosuccess.com/test-habilidades/">Test De Habiliades</a></li>
               <li><a href="https://www.robertwalters.mx/tendencias-de-talento/consejos-de-carrera/blog/como-mejorar-cv.html">Mejora De Curriculum Vitae</a></li>
               <li><a href="coaching.html">Cursos De Coaching</a></li>
             </ul>
           </li>
-          <li><a href="index.html #testimonials">Testimonios</a></li>
-          <li><a href="index.html #team">Nuestro Equipo</a></li>
-          <li><a href="index.html #contact">Contáctanos</a></li>
           <li><a href="login.html" id="registrarse">Iniciar Sesión</a>
         </ul>
       </nav>
@@ -80,58 +76,36 @@
     </div>
   </header>
   </section>
-
-  <!--==========================
-  Contact Section
-  ============================-->
-  <section id="contact">
-    <div class="container wow fadeInUp">
-      <div class="row">
-        <div class="col-md-12">
-          <h3 class="section-title">Registrarse</h3>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-5 col-md-push-2">
-          <div class="form">
-            <div id="sendmessage">Tu mensaje ha sido enviado!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              
-              <div class="form-group">
-                Correo Electrónico:
-                <input type="email" class="form-control" name="email" id="email" placeholder="Tu Correo" data-rule="email" data-msg="Ingresa un Correo Valido" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                Nombre:
-                <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" data-rule="minlen:4" data-msg="" />
-                <div class="validation"></div>
-              </div>            
-              <div class="form-group">
-                Apellidos:
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Tus Apellidos" data-rule="minlen:4" data-msg="" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                Contraseña:
-                <input type="password" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                Repetir Contraseña:
-                <input type="password" class="form-control" name="subject" id="subject"data-rule="minlen:4" data-msg="" />
-                <div class="validation"></div>
-              </div>
-              <div class="text-center"><button type="submit">Registrarse</button></div>
-            </form>
-          </div>
-        </div>
-
-      </div>
+  <!--Login-->
+  <hgroup>
+    <h1>Formulario de Registro</h1>
+    <h3>Por favor complete sus datos</h3>
+  </hgroup>
+  <form class="login">
+    <div class="group">
+      <input type="text"><span class="highlight"></span><span class="bar"></span>
+      <label>Nombres</label>
     </div>
-  </section>
+    <div class="group">
+      <input type="email"><span class="highlight"></span><span class="bar"></span>
+      <label>Apellidos</label>
+    </div>
+    <div class="group">
+      <input type="password"><span class="highlight"></span><span class="bar"></span>
+      <label>Contraseña</label>
+    </div>
+    <div class="group">
+      <input type="password"><span class="highlight"></span><span class="bar"></span>
+      <label>Repetir Contraseña</label>
+    </div>
+    
+    <button type="button" class="button buttonBlue">Registrarse
+      <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+    </button>
+  </form>
+  <footer><a href="index.html" target="_blank"><img src="https://www.polymer-project.org/images/logos/p-logo.svg"></a>
+    <p>Proyecto <a href="index.html" target="_blank">Atiy</a></p>
+  </footer>
 
   <!-- Required JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
