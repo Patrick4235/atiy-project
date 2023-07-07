@@ -73,7 +73,7 @@
           <li><a href="index.html #testimonials">Testimonios</a></li>
           <li><a href="index.html #team">Nuestro Equipo</a></li>
           <li><a href="index.html #contact">Contáctanos</a></li>
-          <li><a href="register.html" id="registrarse">Registrarse</a>
+          <li><a href="login.html" id="registrarse">Iniciar Sesión</a>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -88,7 +88,7 @@
     <div class="container wow fadeInUp">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">Iniciar Sesión</h3>
+          <h3 class="section-title">Registrarse</h3>
         </div>
       </div>
 
@@ -105,11 +105,26 @@
                 <div class="validation"></div>
               </div>
               <div class="form-group">
+                Nombre:
+                <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" data-rule="minlen:4" data-msg="" />
+                <div class="validation"></div>
+              </div>            
+              <div class="form-group">
+                Apellidos:
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Tus Apellidos" data-rule="minlen:4" data-msg="" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
                 Contraseña:
                 <input type="password" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="" />
                 <div class="validation"></div>
               </div>
-              <div class="text-center"><button type="submit">Iniciar Sesión</button></div>
+              <div class="form-group">
+                Repetir Contraseña:
+                <input type="password" class="form-control" name="subject" id="subject"data-rule="minlen:4" data-msg="" />
+                <div class="validation"></div>
+              </div>
+              <div class="text-center"><button type="submit">Registrarse</button></div>
             </form>
           </div>
         </div>
